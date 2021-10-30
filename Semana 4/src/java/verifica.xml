@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<dataset>
+	<usuario login="fulano" nome="Fulano da Silva" email="fulano@email.com" pontos="0" senha="2345"></usuario>
+	<usuario login="joao" nome="Joao Pedro" email="joao@email.com" pontos="10" senha="1234"></usuario>
+	<usuario login="maria" nome="Maria Xica" email="maria@email.com" pontos="0" senha="3456"></usuario>
+	
+	<topico login="joao" titulo="Primeiro topico" conteudo="primeiro topico do forum" id_topico="1"></topico>
+	<topico login="maria" titulo="Segundo topico" conteudo="segundo topico do forum" id_topico="2"></topico>
+	
+	<comentario login="maria" comentario="primeiro comentario" id_topico="1" id_comentario="1"></comentario>
+	<comentario login="maria" comentario="segundo comentario" id_topico="1" id_comentario="2"></comentario>
+</dataset>
